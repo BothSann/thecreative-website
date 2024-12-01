@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Creative Website</title>
+    <link rel="icon" href="images/icon.png" />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -13,12 +14,12 @@
   <body>
     <div class="container">
       <!-- Header -->
-      <header class="header">
+      <header class="header" id="home">
         <nav class="navbar">
-          <a href="#" class="navbar__link">Design</a>
-          <a href="#" class="navbar__link">Customers</a>
-          <a href="#" class="navbar__link">Team</a>
-          <a href="#" class="navbar__link">Contact</a>
+          <a href="#home" class="navbar__link">Design</a>
+          <a href="#customers" class="navbar__link">Customers</a>
+          <a href="#team" class="navbar__link">Team</a>
+          <a href="#contact" class="navbar__link">Contact</a>
         </nav>
         <div class="floating-bg"></div>
         <h1 class="primary-heading">Creative Design</h1>
@@ -29,7 +30,7 @@
       <!-- End of header -->
 
       <!-- Testimonial section -->
-      <section class="testimonial">
+      <section class="testimonial" id="customers">
         <h1 class="secondary-heading">Customers</h1>
         <div class="testimonial__wrapper">
           <div class="testimonial__customer">
@@ -85,9 +86,11 @@
           </div>
         </div>
       </section>
+      <!-- End of testimonial section -->
 
-      <section class="team">
-        <h1 class="secondary-heading">Team</h1>
+      <!-- Team section -->
+      <section class="team" id="team">
+        <h1 class="secondary-heading team__minus-mb">Our Team</h1>
         <div class="team__wrapper">
           <div class="team__member">
             <img src="images/user-5.jpg" class="team__img" />
@@ -119,7 +122,7 @@
             <h2 class="team__name">Both Sann <span>(Developer)</span></h2>
             <ul class="team__list">
               <li class="team__list-item">JavaScript</li>
-              <li class="team__list-item">Figma</li>
+              <li class="team__list-item">C++</li>
               <li class="team__list-item">HTML5</li>
               <li class="team__list-item">CSS3</li>
               <li class="team__list-item">AE</li>
@@ -165,6 +168,30 @@
           </div>
         </div>
       </section>
+      <!-- End of team section -->
+
+      <!-- Contact section -->
+      <section class="contact" id="contact">
+        <h1 class="secondary-heading contact__minus-mb">Contact</h1>
+        <div class="contact__container">
+          <img src="images/form-img.png" class="contact__img" />
+          <form class="contact__form">
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
+            <textarea placeholder="Your message"></textarea>
+            <input type="submit" value="Send" />
+          </form>
+        </div>
+        <p class="contact__copyright">
+          Copyright &copy; by <span>Thann Sopheakboth</span>. All Rights
+          Reserved.
+        </p>
+      </section>
+      <!-- End of contact section -->
+
+      <a href="#home" class="scroll-up-btn">
+        <i class="fas fa-arrow-up"></i>
+      </a>
     </div>
     <script src="script.js"></script>
   </body>
