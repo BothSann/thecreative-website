@@ -4,6 +4,10 @@
 
 The Creative Website is a visually engaging and responsive design portfolio showcasing creative design, customer testimonials, team members, and contact information. It includes smooth animations, user-friendly navigation, and interactive features such as testimonials and team member profiles.
 
+## 🌐 Live Demo
+
+Check out the live version of the website at: [The Creative Website](https://bothsann.github.io/thecreative-website/)
+
 ----
 
 ## 🖼️ Screenshots
