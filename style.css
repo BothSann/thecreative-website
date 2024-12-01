@@ -229,12 +229,10 @@ body {
   box-shadow: 0.5rem 0.5rem 1.5rem #ddd, -0.5rem -0.5rem 1.5rem #eee;
   position: relative;
   transition: all 0.5s;
-  opacity: 0.7;
 }
 
 .team__member:hover {
   transform: translateY(-2rem);
-  opacity: 1;
   box-shadow: 2rem 2rem 3rem #ddd, -2rem -2rem 3rem #eee;
   transition: all 0.5s;
 }
